@@ -1,0 +1,134 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/eye.css">
+    <link rel="ICON" href="viyan.png" type="image/ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+    <script>
+        $(document).ready(function(){
+            $('#sidebar-btn').click(function(){
+                $('#sidebar').toggleClass('visible');
+            });
+        });
+    </script>
+ 
+<script type="text/javascript">
+ 
+ jQuery(document).ready(function() {
+    jQuery("#Pupil").jqEye();
+});
+
+// jqEye plugin's definition
+!function(t){t.fn.jqEye=function(i){function e(t,i,e,h){var a={x:t,y:i};return t>e/2&&(a.x=e/2),-e/2>t&&(a.x=-e/2),i>h/2&&(a.y=h/2),-h/2>i&&(a.y=-h/2),a}function h(t,i,e){var h={x:t,y:i};if(t*t+i*i>e*e)if(0!==t){var a=i/t;h.x=Math.sqrt(e*e/(a*a+1)),h.x=t>0?h.x:-h.x,h.y=Math.abs(a*h.x),h.y=i>0?h.y:-h.y}else h.y=i>0?e:-e;return h}function a(t,i,e,h){var a={x:t,y:i};if(t*t/(e*e)+i*i/(h*h)>1)if(0!==t){var s=i/t;a.x=Math.sqrt(1/(1/(e*e)+s*s/(h*h))),a.x=t>0?a.x:-a.x,a.y=Math.abs(s*a.x),a.y=i>0?a.y:-a.y}else a.y=i>0?h:-h;return a}function s(t,i,a,s,r){var n={x:t,y:i},f=a/2-r,o=s/2-r;if(Math.abs(t)>f&&Math.abs(i)>o){var y=h(Math.abs(t)-f,Math.abs(i)-o,r);n.x=t>0?y.x+f:-(y.x+f),n.y=i>0?y.y+o:-(y.y+o)}else n=e(t,i,a,s);return n}var r=t.extend({shape:"circle",radius:20,width:40,height:40},i);return this.each(function(){var i=t(this),n=t(this).position().left+t(this).width()/2,f=t(this).position().top+t(this).height()/2,o=t(this).offset().left+t(this).width()/2,y=t(this).offset().top+t(this).height()/2;t(document).mousemove(function(x){var c=x.clientX,u=x.clientY,l=c-o+t(window).scrollLeft(),d=u-y+t(window).scrollTop();if("rectangle"===r.shape){var v=e(l,d,r.width,r.height);l=v.x,d=v.y}if("circle"===r.shape){var p=h(l,d,r.radius);l=p.x,d=p.y}if("ellipse"===r.shape){var w=a(l,d,r.width/2,r.height/2);l=w.x,d=w.y}if("rounded rectangle"===r.shape){var g=s(l,d,r.width,r.height,r.radius);l=g.x,d=g.y}l=l+n-i.width()/2,d=d+f-i.height()/2,i.css({left:l,top:d})})})}}(jQuery);
+
+
+
+</script>
+
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=VT323');
+        </style>
+        <script type="text/javascript">
+            var r_text = new Array ();
+            r_text[0] = "Hi";
+            r_text[1] = "Hey";
+            r_text[2] = "What's up?";
+            r_text[3] = "Sup?";
+            r_text[4] = "How's it going?";
+            r_text[5] = "Howdy";
+            r_text[6] = "Well hello!";
+            r_text[7] = "Yo.";
+            r_text[8] = "Greetings!";
+            r_text[9] = "Look who it is!";
+            r_text[10] = "Why hello there.";
+            r_text[11] = "Hello sunshine!";
+            r_text[12] = "Howdy partner!";
+            r_text[13] = "Peek-a-boo!";
+            r_text[14] = "Hiya!";
+            r_text[15] = "How you doin'?";
+            r_text[16] = "Hello sunshine!";
+            r_text[17] = "Hello sunshine!";
+
+            var i = Math.floor(17*Math.random());
+ </script>
+        
+ 
+ 
+</head>
+<body>
+<div id="sidebar">
+	<ul>
+		<li><a href="Intro.html">Home</a></li>
+		<li><a href="Work.html">Work</a></li>
+		<li><a href="About.html">About</a></li>
+		<li><a href="Hire.html">Hire</a></li>
+    </ul>
+    <div id="sidebar-btn" > &#9776;</div>
+</div>
+
+
+
+<img id="viyan"  src="viyan1.svg" width=500px height= 500px;>
+
+<div id="circle" style="width:70px; height:70px;  margin: auto; position:fixed;top:10;bottom: 10;left: 20;right: 0; border:25px solid black; border-radius:60px;">
+<div id="Pupil" style="width:20px; height:20px; left:20px; top:30px; border-radius:15px; background-color:black; position:relative;"></div>
+</div>
+<br>
+<div id="greatings"> <script type="text/javascript"> document.write(r_text[i]); </script></div>
+
+
+            
+            <a href="https://www.instagram.com/viyanateaa/" target="_blank" id="instagram">
+                <svg 
+                version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                 width="30px" height="30px" viewBox="0 0 97.395 97.395" style="enable-background:new 0 0 97.395 97.395;"
+                 xml:space="preserve">
+                <g>
+                <path d="M12.501,0h72.393c6.875,0,12.5,5.09,12.5,12.5v72.395c0,7.41-5.625,12.5-12.5,12.5H12.501C5.624,97.395,0,92.305,0,84.895
+                    V12.5C0,5.09,5.624,0,12.501,0L12.501,0z M70.948,10.821c-2.412,0-4.383,1.972-4.383,4.385v10.495c0,2.412,1.971,4.385,4.383,4.385
+                    h11.008c2.412,0,4.385-1.973,4.385-4.385V15.206c0-2.413-1.973-4.385-4.385-4.385H70.948L70.948,10.821z M86.387,41.188h-8.572
+                    c0.811,2.648,1.25,5.453,1.25,8.355c0,16.2-13.556,29.332-30.275,29.332c-16.718,0-30.272-13.132-30.272-29.332
+                    c0-2.904,0.438-5.708,1.25-8.355h-8.945v41.141c0,2.129,1.742,3.872,3.872,3.872h67.822c2.13,0,3.872-1.742,3.872-3.872V41.188
+                    H86.387z M48.789,29.533c-10.802,0-19.56,8.485-19.56,18.953c0,10.468,8.758,18.953,19.56,18.953
+                    c10.803,0,19.562-8.485,19.562-18.953C68.351,38.018,59.593,29.533,48.789,29.533z"/>
+                </g> 
+                </svg>
+            </a>
+
+            <a href="https://twitter.com/AteaaViyan" target="_blank" id="twitter" >
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="30px" height="30px" viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512.002 512.002;"
+                     xml:space="preserve">
+                <g>
+                    <path d="M512.002,97.211c-18.84,8.354-39.082,14.001-60.33,16.54c21.686-13,38.342-33.585,46.186-58.115
+                        c-20.299,12.039-42.777,20.78-66.705,25.49c-19.16-20.415-46.461-33.17-76.674-33.17c-58.011,0-105.042,47.029-105.042,105.039
+                        c0,8.233,0.929,16.25,2.72,23.939c-87.3-4.382-164.701-46.2-216.509-109.753c-9.042,15.514-14.223,33.558-14.223,52.809
+                        c0,36.444,18.544,68.596,46.73,87.433c-17.219-0.546-33.416-5.271-47.577-13.139c-0.01,0.438-0.01,0.878-0.01,1.321
+                        c0,50.894,36.209,93.348,84.261,103c-8.813,2.399-18.094,3.687-27.674,3.687c-6.769,0-13.349-0.66-19.764-1.888
+                        c13.368,41.73,52.16,72.104,98.126,72.949c-35.95,28.176-81.243,44.967-130.458,44.967c-8.479,0-16.84-0.496-25.058-1.471
+                        c46.486,29.807,101.701,47.197,161.021,47.197c193.211,0,298.868-160.062,298.868-298.872c0-4.554-0.104-9.084-0.305-13.59
+                        C480.111,136.775,497.92,118.275,512.002,97.211z"/>
+                </g>
+                </svg>
+            </a>
+
+            <a href="https://www.linkedin.com/in/viyan-ateaa-17323186/" target="_blank" id="linkdin">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     width="30px" height="30px" viewBox="0 0 430.117 430.117" style="enable-background:new 0 0 430.117 430.117;"
+                     xml:space="preserve">
+                <g>
+                    <path id="LinkedIn" d="M430.117,261.543V420.56h-92.188V272.193c0-37.271-13.334-62.707-46.703-62.707
+                        c-25.473,0-40.632,17.142-47.301,33.724c-2.432,5.928-3.058,14.179-3.058,22.477V420.56h-92.219c0,0,1.242-251.285,0-277.32h92.21
+                        v39.309c-0.187,0.294-0.43,0.611-0.606,0.896h0.606v-0.896c12.251-18.869,34.13-45.824,83.102-45.824
+                        C384.633,136.724,430.117,176.361,430.117,261.543z M52.183,9.558C20.635,9.558,0,30.251,0,57.463
+                        c0,26.619,20.038,47.94,50.959,47.94h0.616c32.159,0,52.159-21.317,52.159-47.94C103.128,30.251,83.734,9.558,52.183,9.558z
+                         M5.477,420.56h92.184v-277.32H5.477V420.56z"/>
+                </g>
+                </svg>
+            </a>
+
+
+
+
+</body>
+</html>

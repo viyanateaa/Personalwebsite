@@ -1,0 +1,40 @@
+p{
+	/*font-family: 'Righteous', cursive;*/
+	/*font-family: 'Modak', cursive;*/
+	/*font-family: 'Erica One', cursive;*/
+	font-family: futura;
+	font-weight: bold;
+	font-size: 100px;
+	text-align: center;
+	padding-top: 200px;
+	vertical-align: text-bottom;
+	
+}
+#gif{
+  width: 250px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+
+body {-webkit-animation: pulse 5s infinite;animation: pulse 5s infinite;}
+
+@-webkit-keyframes pulse {
+    0% {background:yellow}
+    25% {background:red}
+    50% {background:cyan}
+    75% {background:blue}
+    100% {background:magenta}
+}
+
+@keyframes pulse {
+    0% {background:yellow}
+    25% {background:red}
+    50% {background:cyan}
+    75% {background:blue}
+    100% {background:magenta}
+}
+
