@@ -1,9 +1,9 @@
+html{  font-family: 'Righteous', cursive;}
 p{
-	/*font-family: 'Righteous', cursive;*/
 	/*font-family: 'Modak', cursive;*/
 	/*font-family: 'Erica One', cursive;*/
-	font-family: futura;
-	font-weight: bold;
+	/*font-family: futura;*/
+	/*font-weight: bold;*/
 	font-size: 100px;
 	text-align: center;
 	padding-top: 200px;
@@ -18,8 +18,19 @@ p{
   text-align: center;
   vertical-align: text-bottom;
 }
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 50px;
+  position: relative;
+  top: 200px;
 
-
+  
+}
+h2{
+ 
+  text-align: center;
+}
 body {-webkit-animation: pulse 5s infinite;animation: pulse 5s infinite;}
 
 @-webkit-keyframes pulse {
