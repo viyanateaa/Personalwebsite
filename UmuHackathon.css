@@ -219,8 +219,8 @@ h3{
 
 
 #prototype a:hover{
-    cursor: pointer;
-    color: #ffe9e3;
+   /* cursor: pointer;
+    color: #ffe9e3;*/
 }
 
 .NextPrevious {
