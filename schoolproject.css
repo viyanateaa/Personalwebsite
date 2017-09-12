@@ -7,8 +7,8 @@ body{
       right: 0;
       top: 0;
       bottom: 0;
-      border: 20px black;
-      border-style: solid;  
+      /*border: 20px black;*/
+      /*border-style: solid;  */
     position: absolute;
  /*   position: relative;
     max-height: 100%;*/
@@ -22,7 +22,7 @@ body{
     right: 0px;
 }
 #twitter{
-    
+
     margin: 20px;
     padding: 10px;
     position: absolute;
@@ -36,9 +36,9 @@ body{
     bottom: 10px;
     left: 0px;
 }
- 
+
 #sidebar{
-     
+
     background: black;
     width:200px;
     /*height:100%;*/
@@ -64,7 +64,7 @@ ul li{
 }
 
 ul li a{
-    
+
     color:white;
     border-bottom:1px solid #111;
     display:block;
@@ -77,7 +77,7 @@ ul li a:hover{
     color: #fc9dc3;
 }
 #sidebar-btn{
-     
+
     width:20px;
     height:15px;
     cursor:pointer;
@@ -88,12 +88,12 @@ ul li a:hover{
     font-size: 30px;
 }
 #sidebar-btn:hover{
-    color: #ffe9e3; 
-    
+    color: #ffe9e3;
+
 }
 .viyan{
 /*    font-size: 40px;
-  
+
     display: inline-block;
     position: fixed;
     top: 0;
@@ -103,7 +103,7 @@ ul li a:hover{
     width: 75%;
     height: 75%;
     margin: auto;
-    background-color: #f3f3f3; 
+    background-color: #f3f3f3;
     overflow-x: hidden;
     border-radius:15px;*/
 
@@ -114,7 +114,7 @@ svg:hover {
 }
 
 #work{
-    
+
     display: inline-block;
     position: fixed;
     top: 100px;
@@ -126,10 +126,10 @@ svg:hover {
     margin: 50 auto;
     /*background-color: #ffe9e3; */
     overflow-x: hidden;
-    border-radius:5px; 
+    border-radius:5px;
 }
 
- 
+
   img{
     /*border: 5px solid #ffe9e3 ;*/
     /*float: left;
@@ -137,7 +137,7 @@ svg:hover {
   position: relative;
 right: 5%;*/
 }
- 
+
 
 h1{
     color: #ffe9e3;
@@ -145,10 +145,10 @@ h1{
     text-align: center;
     border-radius: 52px;
 }
- 
+
 
 p{
-   
+
 }
 
 #work_info{
@@ -203,12 +203,12 @@ h3{
     /*top:-450px;*/
     /*position: relative;*/
    /*left: 50%;*/
- 
+
     /*text-align: right;*/
-/* -webkit-column-count: 2; 
+/* -webkit-column-count: 2;
     column-count: 2;
-    -webkit-column-gap: 20px; 
-    column-gap: 20px;    
+    -webkit-column-gap: 20px;
+    column-gap: 20px;
  */
 }
 
@@ -239,17 +239,17 @@ h3{
     text-transform: uppercase;
     text-decoration: none;
     text-align: left;
-     
+
 }
 #Next{
     color: black;
     text-transform: uppercase;
     text-decoration: none;
     text-align: right;
-    
+
 }
 
- #Next:hover{ 
+ #Next:hover{
     color:#ffe9e3;
  }
 
@@ -257,7 +257,7 @@ h3{
     color:#ffe9e3;
  }
 #app{
-    
+
     position: relative;
     left: 300px;
 }
@@ -289,23 +289,23 @@ h3{
 ::-webkit-scrollbar {
     width: 12px;
 }
- 
+
 /* Track */
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: black;  
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: black;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-    background: black; 
+    background: black;
 }
 /*@media screen and (min-width: 600px) {
   .grid {
@@ -324,4 +324,11 @@ h3{
   }
 }
 */
+@media screen and (max-width : 1000px) {
 
+  #sidebar-btn{
+font-size: 50px;
+} ul li {
+font-size: 20px;
+}
+}
