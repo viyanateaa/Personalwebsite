@@ -4,13 +4,13 @@ body{
     font-family: 'Montserrat', sans-serif;
     /*font-family:"Helvetica Neue", Helvetica, Arial;*/
     /*font-family: futura;*/
-      overflow: auto;
+      overflow: hidden;
       left: 0;
       right: 0;
       top: 0;
       bottom: 0;
-      border: 20px black;
-      border-style: solid;  
+      /*border: 20px black;*/
+      /*border-style: solid;  */
     position: absolute;
 }
 #instagram{
@@ -21,7 +21,7 @@ body{
     right: 0px;
 }
 #twitter{
-    
+
     margin: 20px;
     padding: 10px;
     position: absolute;
@@ -35,9 +35,9 @@ body{
     bottom: 10px;
     left: 0px;
 }
- 
+
 #sidebar{
-     
+
     background: black;
     width:200px;
     /*height:100%;*/
@@ -63,7 +63,7 @@ ul li{
 }
 
 ul li a{
-    
+
     color:white;
     border-bottom:1px solid #111;
     display:block;
@@ -76,7 +76,7 @@ ul li a:hover{
     color: #fc9dc3;
 }
 #sidebar-btn{
-     
+
     width:20px;
     height:15px;
     cursor:pointer;
@@ -87,12 +87,12 @@ ul li a:hover{
     font-size: 30px;
 }
 #sidebar-btn:hover{
-  color: #ffe9e3; 
-    
+  color: #ffe9e3;
+
 }
 .viyan{
     font-size: 40px;
-  
+
     display: inline-block;
     position: fixed;
     top: 0;
@@ -102,7 +102,7 @@ ul li a:hover{
     width: 75%;
     height: 75%;
     margin: auto;
-    background-color: #f3f3f3; 
+    background-color: #f3f3f3;
     overflow-x: hidden;
     border-radius:15px;
 
@@ -146,7 +146,7 @@ svg:hover {
   #Notfound p{  font-size: 150px;
    position: fixed;
     display: inline-block;
-    
+
     top: 100px;
     bottom: 0;
     left: 0;
@@ -155,11 +155,11 @@ svg:hover {
     height: 40%;
     margin: auto;
     overflow-x: hidden;
-    border-radius:5px; 
+    border-radius:5px;
 }
 }
- 
- 
+
+
 
 body {
     background: linear-gradient(270deg, #18f0b8, #18a2f0, #db5640);
@@ -168,8 +168,8 @@ body {
     -moz-animation: Gradient 5s ease infinite;
     animation: Gradient 5s ease infinite;
 }
-    
-    
+
+
     @-webkit-keyframes Gradient {
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
@@ -180,12 +180,8 @@ body {
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
-    @keyframes Gradient { 
+    @keyframes Gradient {
         0%{background-position:0% 50%}
         50%{background-position:100% 50%}
         100%{background-position:0% 50%}
     }
-
-
-  
-
