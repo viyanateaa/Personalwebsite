@@ -6,7 +6,7 @@ body{
     /*font-family: 'Josefin Sans', sans-serif;*/
     /*font-family:"Helvetica Neue", Helvetica, Arial;*/
     /*font-family: futura;*/
-      overflow: auto;
+      overflow: hidden;
       left: 0;
       right: 0;
       top: 0;

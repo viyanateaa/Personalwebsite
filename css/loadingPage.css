@@ -9,7 +9,7 @@ p{
 	text-align: center;
 	padding-top: 200px;
 	vertical-align: text-bottom;
-	
+
 }
 #gif{
   width: 250px;
@@ -26,10 +26,10 @@ a{
   position: relative;
   top: 200px;
 
-  
+
 }
 h2{
- 
+
   text-align: center;
 }
 body {-webkit-animation: pulse 5s infinite;animation: pulse 5s infinite;}
@@ -49,4 +49,3 @@ body {-webkit-animation: pulse 5s infinite;animation: pulse 5s infinite;}
     75% {background:blue}
     100% {background:magenta}
 }
-

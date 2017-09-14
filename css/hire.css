@@ -2,7 +2,7 @@ body{
     margin:0px;
     padding:0px;
     font-family: 'Montserrat', sans-serif;
-    overflow: auto;
+    overflow: hidden;
     left: 0;
     right: 0;
     top: 0;
